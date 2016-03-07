@@ -4,3 +4,4 @@ test/fixtures
 composer.lock
 composer.phar
 vendor
+/nbproject

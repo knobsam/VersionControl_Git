@@ -1,22 +1,21 @@
 {
+    "name": "knobsam/versioncontrol_git",
+    "description": "VersionControl_Git is a library that provides OO interface to handle Git repository.",
+    "license": "Apache License",
     "authors": [
         {
             "email": "ebihara@php.net",
             "name": "Kousuke Ebihara",
             "role": "Lead"
+        },
+        {
+            "name": "Samuel Knobloch",
+            "email": "samuelknobloch@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-0": {
-            "VersionControl": "./"
-        }
-    },
-    "description": "VersionControl_Git is a library that provides OO interface to handle Git repository.",
     "include-path": [
         "./"
     ],
-    "license": "Apache License",
-    "name": "pear/versioncontrol_git",
     "support": {
         "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=VersionControl_Git",
         "source": "https://github.com/pear/VersionControl_Git"
@@ -28,5 +27,10 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "VersionControl": "./"
+        }
     }
 }
