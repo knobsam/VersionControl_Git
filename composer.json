@@ -32,5 +32,8 @@
         "psr-0": {
             "VersionControl": "./"
         }
+    },
+    "replace": {
+        "pear/versioncontrol_git": "self.version"
     }
 }
